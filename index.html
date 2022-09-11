@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Komentum</title>
+  </head>
+  <body>
+    <div id="init-page" class="hidden">
+      <div>
+        <span>Hello, what's your name?</span>
+        <form id="init__form"><input type="text" max="20" /></form>
+      </div>
+    </div>
+    <div id="main-page" class="hidden">
+      <div>
+        <div id="left-page">
+          <div id="greetings"><span></span></div>
+          <div id="time-weather">
+            <div id="time-weather__head">
+              <span id="time-weather__ampm">am</span>
+              <div id="time-weather__weather">
+                <div id="time-weather__weather-content">
+                  <span id="time-weather__weather-temp"></span>
+                  <span id="time-weather__weather-city"></span>
+                </div>
+                <img id="time-weather__weather-icon" />
+              </div>
+            </div>
+            <span id="time-weather__time"></span>
+          </div>
+        </div>
+        <div id="todo-list">
+          <form id="todo-list__form">
+            <span>Today <b>TODO</b></span>
+            <input type="text" />
+          </form>
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/40b28554cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="commmon.js"></script>
+    <script src="background.js"></script>
+    <script src="time.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+    <script src="page.js"></script>
+  </body>
+</html>

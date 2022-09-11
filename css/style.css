@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import "reset.css";
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  backdrop-filter: blur(3px);
+
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.black-span {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.white-span {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.black-input {
+  color: rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 0, 0, 0.8);
+}
+
+.white-input {
+  color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.checked {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+#init-page {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+#init-page div {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#init-page span {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+#init-page input {
+  width: 800px;
+  border-bottom: 2px solid;
+  background-color: transparent;
+  font-size: 50px;
+  font-weight: 100;
+
+  padding: 10px;
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+#main-page {
+  height: 100vh;
+  width: 100vw;
+}
+
+#main-page > div {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+#left-page {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 40px;
+
+  box-sizing: border-box;
+}
+
+#greetings {
+  font-size: 50px;
+}
+
+#time-weather__head {
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#time-weather__weather {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#time-weather__weather-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#time-weather__ampm {
+  font-size: 40px;
+}
+
+#time-weather__weather-temp {
+  font-size: 20px;
+}
+#time-weather__weather-city {
+  font-size: 20px;
+}
+#time-weather__time {
+  font-size: 120px;
+}
+
+#todo-list {
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 40px;
+  padding: 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#todo-list form {
+  display: flex;
+  flex-direction: column;
+}
+
+#todo-list__form span {
+  font-size: 20px;
+}
+
+#todo-list__form input {
+  width: 320px;
+  border-bottom: 1px solid;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 100;
+
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#todo-list ul {
+  margin-top: 30px;
+}
+
+#todo-list ul li {
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+}
+
+#todo-list ul li i:first-child {
+  font-size: 20px;
+  margin-right: 20px;
+  opacity: 0.9;
+}
+
+#todo-list ul li span {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+#todo-list ul li i:last-child {
+  font-size: 15px;
+  margin-right: 20px;
+  opacity: 0.8;
+}
