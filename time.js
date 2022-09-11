@@ -8,7 +8,6 @@ function setGreetings() {
 
   const name = localStorage.getItem(ITEM_USER_NAME);
   let greetingsText = "";
-  console.log(hour);
   if (hour < 5) greetingsText = "Good Night";
   else if (hour < 11) greetingsText = "Good Morning";
   else if (hour < 5) greetingsText = "Good Afternoon";

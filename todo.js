@@ -24,7 +24,6 @@ function onTodoFormSubmit(event) {
 
 function onCheckItem(event) {
   const li = event.target.parentElement;
-  console.dir(li.childElementCount);
   const icon = li.querySelector(".fa-regular");
   const span = li.querySelector("span");
 
